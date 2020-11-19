@@ -1,0 +1,72 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+angka                                                                             0x0260      80
+smk                                                                               0x02B0      96
+puluhan                                                                           0x0310      80
+satuan                                                                            0x0360      80
+arah                                                                              0x03B0      40
+suhu                                                                              0x03D8       2
+jx                                                                                0x03DA       2
+jy                                                                                0x03DC       2
+joy                                                                               0x03DE       2
+menu                                                                              0x03E0       2
+push                                                                              0x03E2       2
+lastc7                                                                            0x03E4       2
+latchmenu                                                                         0x03E6       2
+bawah                                                                             0x03E8       2
+atas                                                                              0x03EA       2
+tengah                                                                            0x03EC       2
+i                                                                                 0x03EE       2
+j                                                                                 0x03F0       2
+p                                                                                 0x03F2       2
+vADC                                                                              0x03F4       4
+temp                                                                              0x03F8       4
+datalcd                                                                           0x03FC      16
+bitresult                                                                         0x040C       8
+_base_y                                                                           0x0414       4
+_lcd_x                                                                            0x0418       1
+_lcd_y                                                                            0x0419       1
+_lcd_maxx                                                                         0x041A       1
+_seed                                                                             0x041B       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+sen                                                                               R4,R5        2
+pot                                                                               R6,R7        2
+pb                                                                                R8,R9        2
+vrx                                                                               R10,R11      2
+vry                                                                               R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+bitwise                                                                           0x001C6     54
+matrix                                                                            0x001FC     90
+scrollmtx                                                                         0x00256     80
+timer0_ovf_isr                                                                    0x002A6    487
+timer1_ovf_isr                                                                    0x0048D     79
+read_adc                                                                          0x004DC     15
+main                                                                              0x004EB    319
+_lcd_write_nibble_G100                                                            0x0062A     37
+_lcd_write_data                                                                   0x0064F     12
+lcd_gotoxy                                                                        0x0065B     17
+lcd_clear                                                                         0x0066C     14
+lcd_putchar                                                                       0x0067A     32
+lcd_puts                                                                          0x0069A     17
+lcd_init                                                                          0x006AB     46
+ftoa                                                                              0x006D9    194
+put_buff_G102                                                                     0x0079B     58
+_ftoe_G102                                                                        0x007D5    230
+_print_G102                                                                       0x008BB    538
+sprintf                                                                           0x00AD5     52
+strcpyf                                                                           0x00B09     13
+strlen                                                                            0x00B16     12
+strlenf                                                                           0x00B22     13
+ftrunc                                                                            0x00B2F     49
+floor                                                                             0x00B60     23
